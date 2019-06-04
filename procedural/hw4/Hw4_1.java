@@ -15,7 +15,7 @@ public class Hw4_1 {
     static boolean isPalindrome (String a) {
         String invertedString = "";
         for (int size = a.length(), i = size - 1; i >= 0; i--){
-            invertedString += a.charAt(i);
+        invertedString += a.charAt(i);
         }
         return a.equalsIgnoreCase(invertedString);
     }
