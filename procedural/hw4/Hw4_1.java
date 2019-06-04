@@ -4,13 +4,12 @@
 
 import java.util.Scanner;
 
-public class hw41 {
+public class Hw4_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите слово: ");
         String inputString = sc.next();
-        System.out.println("Введенное слово " + (isPalindrome(inputString)
-                ? "является" : "НЕ является") + " палиндромом");
+        System.out.println("Введенное слово " + (isPalindrome(inputString) ? "является" : "НЕ является") + " палиндромом");
     }
 
     static boolean isPalindrome (String a) {
