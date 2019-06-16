@@ -27,7 +27,7 @@ public class PushkinCounter {
                 line.toCharArray();
             }
         }
-        try (BufferedWriter out = new BufferedWriter(new FileWriter(PATH + "\\anchar.txt"))){
+        try (BufferedWriter out = new BufferedWriter(new FileWriter(PATH + "\\letters.txt"))){
             for (Map.Entry<Character, Integer> entry : letters.entrySet()) {
                 out.write(entry.getKey() + " - " + entry.getValue() + "\n");
             }
