@@ -1,6 +1,6 @@
 package oop.hw3;
 
-public class Figure  implements Equal {
+public abstract class Figure  implements Equal {
 
     public boolean isTriangle(){
         return false;
