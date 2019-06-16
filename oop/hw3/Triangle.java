@@ -1,6 +1,6 @@
 package oop.hw3;
 
-public class Triangle Triangle extends Figure implements Perimetr {
+public class Triangle extends Figure implements Perimetr {
     public Point a;
     public Point b;
     public Point c;
